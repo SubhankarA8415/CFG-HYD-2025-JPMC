@@ -10,9 +10,9 @@ const transporter = nodemailer.createTransport({
   },
 });
 
-const sendEmail = async (to, subject, html) => {
+const sendEmail = async ({ to, subject, html }) => {
   await transporter.sendMail({
-    from: `"CML's BARN - Administrator ${process.env.EMAIL_USER}"`,
+    from: `"CML's BARN - Administrator" <${process.env.EMAIL_USER}>`,
     to,
     subject,
     html,

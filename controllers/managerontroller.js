@@ -234,7 +234,7 @@ const forgotPassword = async (req, res) => {
     });
 
     // 🔁 Now using backend reset URL instead of frontend
-    const resetUrl = `${process.env.SERVER_URL}/api/reset-password/${resetToken}`;
+    const resetUrl = `${process.env.SERVER_URL}/api/manager/reset-password/${resetToken}`;
 
     const subject = "Password Reset Request - CML's BARN";
     const html = `

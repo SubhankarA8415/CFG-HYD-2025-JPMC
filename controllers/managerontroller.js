@@ -233,7 +233,8 @@ const forgotPassword = async (req, res) => {
       expiresIn: process.env.JWT_RESET_EXPIRY || '15m',
     });
 
-    const resetUrl = `${process.env.CLIENT_URL}/reset-password/${resetToken}`;
+    // 🔁 Now using backend reset URL instead of frontend
+    const resetUrl = `${process.env.SERVER_URL}/api/reset-password/${resetToken}`;
 
     const subject = "Password Reset Request - CML's BARN";
     const html = `
@@ -246,7 +247,6 @@ const forgotPassword = async (req, res) => {
       <p>Regards,<br/>CML's BARN Team</p>
     `;
 
-    // ✅ Correct object-based call
     await sendEmail({
       to: manager.email,
       subject,
@@ -254,8 +254,8 @@ const forgotPassword = async (req, res) => {
     });
 
     console.log(`🔵 Reset link sent to ${manager.email}`);
-
     res.json({ message: 'Reset link sent to your email.' });
+
   } catch (error) {
     console.error(error);
     res.status(500).json({ message: 'Error sending reset email.' });
@@ -268,20 +268,23 @@ const resetPassword = async (req, res) => {
   const { newPassword } = req.body;
 
   try {
+    // ✅ Verify token
     const decoded = jwt.verify(token, process.env.JWT_SECRET);
+    
+    // ✅ Find manager by decoded ID
     const manager = await Manager.findById(decoded.id);
-
     if (!manager) {
-      return res.status(404).json({ message: 'Invalid or expired token.' });
+      return res.status(404).json({ message: 'Manager not found.' });
     }
 
-    const hashedPassword = bcrypt.hashSync(newPassword, 10);
+    // ✅ Hash new password securely (non-blocking)
+    const hashedPassword = await bcrypt.hash(newPassword, 10);
     manager.password = hashedPassword;
     await manager.save();
 
-    res.json({ message: 'Password reset successful!' });
+    res.status(200).json({ message: 'Password reset successful!' });
   } catch (error) {
-    console.error(error);
+    console.error('❌ Reset password error:', error.message);
     res.status(400).json({ message: 'Invalid or expired token.' });
   }
 };

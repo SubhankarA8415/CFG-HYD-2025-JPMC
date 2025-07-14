@@ -112,9 +112,9 @@ A real-world solution built at **Code for Good 2025 – JPMorgan Chase & Co.**, 
 ---
 
 ## 👨‍💻 My Tasks: Subhankar Pandit
-- Backend dev, schema modeling, role auth, Razorpay, Cloudinary
-- Integrated Google OAuth, SMS OTP login, Excel imports
-- Handled chat, market, chatbot, dashboard, and data visualization
+- Backend dev, schema modeling, role auth, Razorpay, Cloudinary, middlewares, controllers and routes
+- Integrated the whole Backend and Frontend along with Google OAuth, SMS OTP login, Excel imports, SMS alerts, Email based login, Forget password, All email sending system
+- Handled chat (manager-farmer), donation, market (buy and sell), Admin controls and Admin dashboard, production, weather (added maptiler), handled all live controls of all 3 users
 - Enhanced Frontend parts and also made some new JSX components
 
 🔗 [GitHub](https://github.com/SubhankarA8415)  

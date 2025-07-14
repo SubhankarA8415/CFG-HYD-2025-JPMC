@@ -38,6 +38,10 @@
       "src": "/(.*\\.jpg)",
       "dest": "/client/$1"
     },
+     {
+      "src": "/(.*\\.jpeg)",
+      "dest": "/client/$1"
+    },
     {
       "src": "/(.*)",
       "dest": "/client/index.html"

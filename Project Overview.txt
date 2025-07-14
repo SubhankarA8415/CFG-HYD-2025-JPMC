@@ -1,0 +1,152 @@
+# 🌾 BARN – Benefactor for Agriculture Resources and Need
+
+A real-world solution built at **Code for Good 2025 – JPMorgan Chase & Co.**, aiming to **digitize and streamline operations for rural NGOs** supporting small and marginal farmers in Assam.
+
+---
+
+## 🚀 About the Project
+
+**BARN** is a comprehensive agri-tech platform designed for the NGO **Centre for Microfinance and Livelihoods (CML)** to:
+- Eliminate paper-based workflows
+- Reduce manual effort for data entry
+- Provide real-time crop management insights
+- Enable **public donations and product purchases**
+- Use tech to **increase revenue and impact** for NGOs and farmers
+
+---
+
+## 🎯 Core Goals
+- ✅ Digitize farmer and crop data
+- ✅ Enable role-based access for admins, managers, and farmers
+- ✅ Automate alerts, product tracking, weather data, and analytics
+- ✅ Empower farmers to sell produce directly to buyers
+- ✅ Facilitate donations to the NGO
+- ✅ Use tech to increase both **operational efficiency and revenue**
+
+---
+
+## 👥 User Roles
+- **Admin:** Authorizes managers and controls data
+- **Manager:** Manages farmers, production, alerts, and market insights
+- **Farmer:** Self-registers, uploads crop data, sells products, chats with managers
+
+---
+
+## 🔐 Authentication
+- Manual email/password authentication
+- Google OAuth login
+- OTP-based SMS login for farmers (verified numbers only)
+- Password reset via email
+- Manager role requires admin approval
+
+---
+
+## 🌟 Key Features
+
+### 📊 Dashboards & Visualizations
+- **Pie chart:** Crop distribution overview
+- **Line graph:** Production trends per crop
+- Data fetched from MongoDB & visualized using chart libraries
+- Summary and insights shown on manager dashboard
+
+### 👨‍🌾 Farmer & Production Management
+- Add/Edit/Delete farmers with land/crop/livestock info
+- Import/export bulk Excel files
+- Realtime database sync
+- SMS alerts to verified numbers
+
+### 📲 SMS System
+- OTP-based login for farmers
+- Weather or task alerts from manager to farmers
+- Works via SMS API (limited to verified/test numbers on free tier)
+
+### 🛒 Digital Marketplace
+- Farmers list items with price, quantity, image
+- Buyers place orders (with email confirmation)
+- Stock updates post-purchase
+- Admin analytics for product revenue
+
+### 💬 Real-time Chat System
+- Manager ↔ Farmer chat with role-wise UI
+- Shared chat feed from both sides
+- Works across all roles with basic text support
+
+### 🤖 Chatbot (Multilingual)
+- Bilingual chatbot (Assamese + English)
+- Provides basic navigation and guidance
+- Plans to add crop advisory features
+
+### 💰 Donation Module
+- Razorpay (test mode) payment gateway
+- Public users can donate to NGO
+- Confirmation email sent post-transaction
+
+### 🗺️ Weather & Maps
+- Interactive map using **MapTiler API**
+- Centered on Assam region
+- Tap to get real-time & next-day forecast
+- Alerts can be sent to on-field farmers
+
+### 📷 Crop Diagnosis (Planned)
+- Mobile camera interface (React Native) to capture crop images
+- Intended to connect with ML-based disease detection (future enhancement)
+
+---
+
+## 🧰 Tech Stack
+
+| Layer        | Technology                                     |
+|--------------|------------------------------------------------|
+| Frontend     | React.js, Tailwind CSS                         |
+| Backend      | Node.js, Express.js                            |
+| Database     | MongoDB                                        |
+| Auth         | Manual + Google OAuth + OTP via SMS            |
+| Storage      | Cloudinary (for image uploads)                 |
+| Excel I/O    | xlsx JS library                                |
+| Alerts/OTP   | SMS API (custom, test-only in free tier)       |
+| Payments     | Razorpay (test mode)                           |
+| Map/Weather  | **MapTiler API**                               |
+| Visualization| Pie & Line Charts (chart.js / recharts)        |
+| Chatbot      | Custom-built chatbot (Assamese + English)      |
+
+---
+
+## 👨‍💻 My Tasks: Subhankar Pandit
+- Backend dev, schema modeling, role auth, Razorpay, Cloudinary
+- Integrated Google OAuth, SMS OTP login, Excel imports
+- Handled chat, market, chatbot, dashboard, and data visualization
+- Enhanced Frontend parts and also made some new JSX components
+
+🔗 [GitHub](https://github.com/SubhankarA8415)  
+🔗 [LinkedIn](https://www.linkedin.com/in/subhankar-pandit-080449255)
+
+---
+
+## 🧑‍💻 Team 27 – Developers
+
+- **Subhankar Pandit** – Backend, Integration and Frontend Enhancements
+- **Tirupate Aniketh** – Frontend, APIs and GitHub  
+- **Muvva Adityavardhan** – Chatbot & ML Integration 
+- **Yakkala Meenakshi** – Frontend and APIs 
+- **Harsha Vardhan** – Backend and GitHub 
+- **Anamika Rana** – Frontend UI & Presentation  
+- **Sivam Mohapatra** – Mobile App and APIs Integration  
+
+---
+
+## 🤝 Mentors from JPMorgan Chase
+
+- **Mamatha A** – Vice President, Product & Agile  
+- **Srinivas Kota** – Vice President  
+- **Lavanya Palaparthi** – Software Engineer III  
+
+---
+
+## 🌐 Hosting
+- Hosted locally (soon on Vercel)
+
+---
+
+## 🙏 Special Thanks
+To JPMorgan Chase, CML, and our mentors at Code for Good Hyderabad 2025.  
+Built with ❤️ by **Team 27**.

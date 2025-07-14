@@ -22,11 +22,5 @@
       "src": "/(.*)",
       "dest": "/client/index.html"
     }
-  ],
-  "rewrites": [
-    {
-      "source": "/reset-password/:token",
-      "destination": "/client/index.html"
-    }
   ]
 }

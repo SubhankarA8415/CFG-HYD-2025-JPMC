@@ -6,7 +6,7 @@ import meenakshi from "../assets/team/meenakshi.jpeg";
 import aniketh from "../assets/team/aniketh.jpeg";
 import aditya from "../assets/team/aditya.jpeg";
 import sivam from "../assets/team/sivam.jpeg";
-import anamika from "../assets/team/anamika.png";
+import anamika from "../assets/team/1752495733428.png";
 import harsha from "../assets/team/harsha.jpeg";
 import mentor1 from "../assets/team/mentor1.jpeg";
 import mentor2 from "../assets/team/mentor2.jpeg";

@@ -46,7 +46,7 @@ export default function Home() {
         <div className="absolute inset-0 bg-gradient-to-br from-indigo-900/80 via-blue-800/60 to-green-400/40 z-10"></div>
         <div className="container mx-auto px-6 text-center relative z-20 flex flex-col items-center justify-center">
           <h1 className="text-4xl lg:text-6xl font-bold mb-2 text-white drop-shadow-lg">
-            Centre for Misfinance and Livelihood's BARN
+            Centre for Microfinance and Livelihood's BARN
           </h1>
           <p className="text-lg lg:text-2xl mb-6 text-white font-semibold">
             BARN: Benefactor for Agricultural Resources and Needs

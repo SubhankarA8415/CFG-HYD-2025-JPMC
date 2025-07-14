@@ -16,7 +16,7 @@ router.post('/add-farmer', addFarmer);
 router.post('/google-register',validateGoogle, validateManager, googleRegister); // Assuming this is for Google registration
 router.post('/google-login',validateGoogle, validateManager, googleLogin)
 router.post('/forgot-password', forgotPassword);
-router.get('/reset-password/:token', resetPassword);
+router.post('/reset-password/:token', resetPassword);
 router.put('/change-password', protect, validateManager, changePassword);
 router.put('/edit/:id',validateManager, editManager);
 router.put('/edit',protect, validateManager, updateManagerProfile);      // PUT /api/manager/edit

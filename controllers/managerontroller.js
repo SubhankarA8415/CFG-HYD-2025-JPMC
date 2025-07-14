@@ -246,11 +246,14 @@ const forgotPassword = async (req, res) => {
       <p>Regards,<br/>CML's BARN Team</p>
     `;
 
+    // ✅ Correct object-based call
     await sendEmail({
       to: manager.email,
       subject,
       html,
     });
+
+    console.log(`🔵 Reset link sent to ${manager.email}`);
 
     res.json({ message: 'Reset link sent to your email.' });
   } catch (error) {

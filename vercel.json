@@ -17,12 +17,7 @@
     },
     {
       "src": "/(.*)",
-      "dest": "/client/$1"
+      "dest": "/client/index.html"
     }
-  ]
-}
-{
-  "rewrites": [
-    { "source": "/(.*)", "destination": "/" }
   ]
 }

@@ -5,7 +5,7 @@ const ProtectedRoute = ({ children }) => {
   const token = localStorage.getItem('farmerToken');
 
   if (!token) {
-    alert('You must be logged in to access the dashboard.');
+    alert('You must be logged in as farmer to access this page.!!!');
     return <Navigate to="/farmers-login" />;
   }
 

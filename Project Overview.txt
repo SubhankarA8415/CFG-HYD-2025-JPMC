@@ -143,7 +143,7 @@ A real-world solution built at **Code for Good 2025 – JPMorgan Chase & Co.**, 
 ---
 
 ## 🌐 Hosting
-- Hosted locally (soon on Vercel)
+- Live Link: https://cfg-hyd-2025-jpmc.vercel.app/
 
 ---
 

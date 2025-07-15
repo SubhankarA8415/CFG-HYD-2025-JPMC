@@ -6,6 +6,7 @@ const ManagerPrivateRoute = ({ children }) => {
   const token = localStorage.getItem('managerToken');
 
   if (!token) {
+    alert('Unauthorized access as a manager, please log in.!!!');
     return <Navigate to="/" />;
   }
 
@@ -16,6 +17,7 @@ const ManagerPrivateRoute = ({ children }) => {
     if (decoded?.role === 'manager' && decoded?.isAuthorized === true) {
       return children;
     } else {
+      alert('Unauthorized access, please get authorization from the admin.!!!');
       return <Navigate to="/" />;
     }
   } catch (error) {

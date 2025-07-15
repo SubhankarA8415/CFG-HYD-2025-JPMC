@@ -6,7 +6,7 @@ const ProtectedBothRoute = ({ children }) => {
   const farmerToken = localStorage.getItem('farmerToken');
 
   if (!managerToken && !farmerToken) {
-    alert('You must be logged in to access this page.');
+    alert('You must be logged in to access this page.!!!');
     return <Navigate to="/" replace />;
   }
 

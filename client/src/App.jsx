@@ -11,6 +11,7 @@ import ProtectedBothRoute from './ProtectedBothRoute';
 import AdminDashboard from './components/manager/AdminDashboard';
 import DeveloperTeam from './components/DeveloperTeam';
 import Contact from './components/Contact';
+import ProtectedRouteAdmin from './ProtectedAdminRoute';
 // Manager Components
 import ManagerDashboard from './components/manager/ManagerDashboard';
 import ManagerRegister from './components/manager/ManagerRegister';
@@ -219,7 +220,9 @@ const router = createBrowserRouter([
   {
     path : 'admin-dashboard',
     element: (
+    <ProtectedRouteAdmin>
     <AdminDashboard />
+    </ProtectedRouteAdmin>
     )
   },
   // {

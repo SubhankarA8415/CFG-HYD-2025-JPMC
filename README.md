@@ -150,3 +150,12 @@ A real-world solution built at **Code for Good 2025 – JPMorgan Chase & Co.**, 
 ## 🙏 Special Thanks
 To JPMorgan Chase, CML, and our mentors at Code for Good Hyderabad 2025.  
 Built with ❤️ by **Team 27**.
+
+--
+
+## 📞 Contact
+
+**Subhankar Pandit**  
+**Full Stack Developer | Backend Engineer | AI/ML**  
+**GitHub**: https://github.com/SubhankarA8415  
+**LinkedIn**: https://linkedin.com/in/subhankar-pandit 

@@ -156,6 +156,6 @@ Built with ❤️ by **Team 27**.
 ## 📞 Contact
 
 **Subhankar Pandit**  
-**Full Stack Developer | Backend Engineer | AI/ML**  
+**Full Stack Developer | Backend Engineer | AI/ML | Cloud**  
 **GitHub**: https://github.com/SubhankarA8415  
 **LinkedIn**: https://linkedin.com/in/subhankar-pandit 

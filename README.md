@@ -94,9 +94,8 @@ It can be shared upon request for:
 | Resource | Description |
 |----------|-------------|
 | 🎥 Public Project Showcase | Presentation-based walkthrough of the complete project |
-| 📄 Project Presentation | Complete project presentation available inside the `docs` directory |
-| 🏗️ Architecture Documentation | Detailed system architecture and workflow available inside the `docs` directory|
-| 📚 Technical Documentation | Additional implementation documentation |
+| 📄 Project Presentation | Complete project presentation (available inside the `docs` directory) |
+| 🏗️ Architecture Documentation | Detailed system architecture and workflow (available inside the `docs` directory) |
 
 ---
 
@@ -201,7 +200,7 @@ While BARN represents the collective effort of the entire development team, the 
 
 ---
 
-# 🏗️ System Architecture
+# 🏗️ High-level System Architecture
 
 BARN follows a modular, scalable, and enterprise-oriented full-stack architecture designed to support multiple user roles, cloud integrations, and future platform expansion.
 

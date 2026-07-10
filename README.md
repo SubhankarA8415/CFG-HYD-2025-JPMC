@@ -362,35 +362,39 @@ These integrations help transform traditional NGO operations into a modern, clou
 ```text
 CFG-HYD-2025-JPMC/
 │
-├── backend/
-│   ├── config/
-│   ├── controllers/
-│   ├── middleware/
-│   ├── models/
-│   ├── routes/
-│   ├── services/
-│   ├── utils/
-│   └── server.js
+├── api/
+│   ├── server.js
 │
-├── frontend/
+├── client/
 │   ├── public/
 │   ├── src/
 │   │   ├── assets/
 │   │   ├── components/
-│   │   ├── pages/
-│   │   ├── hooks/
-│   │   ├── services/
-│   │   ├── context/
-│   │   └── utils/
+│   │   ├── App.css
+│   │   ├── App.jsx
+│   │   ├── pages
+│   │   ├── hooks
+│   │   ├── services
+│   │   ├── context
+│   │   └── utils
 │   │
+│   ├── vite.config.js
 │   └── package.json
 │
+├── controllers
+├── middleware
+├── models
+├── routes
+├── utils
+│
 ├── docs/
-│   ├── BARN-Presentation.pdf
+│   ├── BARN-tm.pdf
 │   ├── Architecture.md
-│   └── Images/
 │
 ├── README.md
+├── original_server_before_editing.txt
+├── Project Overview.txt
+├── vercel.json
 └── package.json
 ```
 

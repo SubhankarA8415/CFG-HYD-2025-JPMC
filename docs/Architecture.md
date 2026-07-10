@@ -531,7 +531,7 @@ For additional information about the project, refer to the following repository 
 | Document | Purpose |
 |-----------|---------|
 | `README.md` | Project overview, setup instructions, features, and usage |
-| `BARN-Project-Presentation.pdf` | Architecture diagrams, workflow illustrations, feature overview, and project presentation |
+| `BARN-tm.pdf` | Architecture diagrams, workflow illustrations, feature overview, and project presentation |
 
 ---
 

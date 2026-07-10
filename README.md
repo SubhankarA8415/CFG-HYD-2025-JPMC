@@ -95,7 +95,7 @@ It can be shared upon request for:
 |----------|-------------|
 | 🎥 Public Project Showcase | Presentation-based walkthrough of the complete project |
 | 📄 Project Presentation | Complete project presentation available inside the `docs` directory |
-| 🏗️ Architecture Documentation | Detailed system architecture and workflow |
+| 🏗️ Architecture Documentation | Detailed system architecture and workflow available inside the `docs` directory|
 | 📚 Technical Documentation | Additional implementation documentation |
 
 ---

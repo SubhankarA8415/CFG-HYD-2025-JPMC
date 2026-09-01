@@ -619,7 +619,7 @@ While designed around a real-world NGO use case, certain integrations (such as p
 
 # 👨‍💻 Developer
 
-## **Subhankar Pandit**
+## **Subhankar Pandit and Team 27 Code For Good 2025 JPMC(Hyderabad)**
 
 **Computer Science Engineer | Full Stack Developer | AI & Machine Learning Enthusiast**
 
@@ -659,6 +659,6 @@ Your support helps increase the visibility of the project and motivates the deve
 
 ### 🚀 Building Intelligent Software for Real-World Impact
 
-**Designed & Developed by Subhankar Pandit**
+**Designed & Developed by Subhankar Pandit and Team 27 Code For Good 2025 JPMC(Hyderabad)**
 
 </p>
